@@ -730,5 +730,26 @@
       "prompt": "content"
     },
     "folder": "python"
+  },
+  "hco_full_pretrain_dataset": {
+    "file_name": "dict_train.jsonl",
+    "columns": {
+      "prompt": "text"
+    }
+  },
+  "ner_sft_dataset": {
+    "file_name": "ner_sft.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant",
+      "system_tag": "system"
+    }
   }
+
 }
