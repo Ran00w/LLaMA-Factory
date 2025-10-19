@@ -750,6 +750,19 @@
       "assistant_tag": "assistant",
       "system_tag": "system"
     }
+  },
+  "ner_sft_shot": {
+    "file_name": "ner_sft_shot.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant",
+      "system_tag": "system"
+    }
   }
-
 }
