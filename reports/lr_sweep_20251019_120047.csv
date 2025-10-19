@@ -1,0 +1,4 @@
+learning_rate,run_name,output_dir,status,best_metric,last_train_loss,log_file
+"0.00005","ner-sft-lora-lr0-00005-20251019_120047-1","/media/dpctc/4TB1/lr/ner-lora/ner-sft-lora-lr0-00005-20251019_120047-1","failed","N/A","N/A",""
+"0.00006","ner-sft-lora-lr0-00006-20251019_120047-2","/media/dpctc/4TB1/lr/ner-lora/ner-sft-lora-lr0-00006-20251019_120047-2","failed","N/A","N/A",""
+"0.00007","ner-sft-lora-lr0-00007-20251019_120047-3","/media/dpctc/4TB1/lr/ner-lora/ner-sft-lora-lr0-00007-20251019_120047-3","failed","N/A","N/A",""

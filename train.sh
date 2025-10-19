@@ -3,7 +3,7 @@ set -euo pipefail
 
 # 运行脚本前可通过环境变量覆盖默认配置。
 MODEL_NAME_OR_PATH=${MODEL_NAME_OR_PATH:-/media/dpctc/4TB1/lr/model/Qwen2.5-7B-Instruct}
-DATASET_NAME=${DATASET_NAME:-ner_sft_shot}
+DATASET_NAME=${DATASET_NAME:-ner_sft_dataset}
 DATASET_DIR=${DATASET_DIR:-data}
 OUTPUT_ROOT=${OUTPUT_ROOT:-/media/dpctc/4TB1/lr/ner-lora}
 RUN_PREFIX=${RUN_PREFIX:-ner-sft-lora}
